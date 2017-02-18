@@ -11,6 +11,8 @@ provisioner:
 
 verifier:
   name: inspec
+  format: junit
+  output: ./inspec_output.xml
 
 platforms:
   - name: centos-7.2
