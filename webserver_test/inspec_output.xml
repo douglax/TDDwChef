@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="4" failures="0" errors="0" time="0.281152" timestamp="2017-02-18T15:11:34-07:00">
+  <!-- Randomized with seed 10053 -->
+  <properties/>
+  <testcase classname="C:.opscode.chefdk.embedded.lib.ruby.gems.2.3.0.gems.inspec-1.7.2.lib.inspec.rule" name="User root should exist" file="C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/inspec-1.7.2/lib/inspec/rule.rb" time="0.109453"/>
+  <testcase classname="C:.opscode.chefdk.embedded.lib.ruby.gems.2.3.0.gems.inspec-1.7.2.lib.inspec.rule" name="User root This is an example test, replace with your own test." file="C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/inspec-1.7.2/lib/inspec/rule.rb" time="0.000000">
+    <skipped/>
+  </testcase>
+  <testcase classname="C:.opscode.chefdk.embedded.lib.ruby.gems.2.3.0.gems.inspec-1.7.2.lib.inspec.rule" name="Port 80 should not be listening" file="C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/inspec-1.7.2/lib/inspec/rule.rb" time="0.168740"/>
+  <testcase classname="C:.opscode.chefdk.embedded.lib.ruby.gems.2.3.0.gems.inspec-1.7.2.lib.inspec.rule" name="Port 80 This is an example test, replace with your own test." file="C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/inspec-1.7.2/lib/inspec/rule.rb" time="0.000000">
+    <skipped/>
+  </testcase>
+</testsuite>
