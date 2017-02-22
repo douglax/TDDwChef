@@ -31,6 +31,10 @@ Select Freestyle project, then OK
 
 Configure the job with the following information:
 
+Delivery pipeline Configuration
+Stage name:  Stage 1 - Git pull
+Task name: Code retrieval
+
 Shared workspace: TDDworkspace
 Source code management: git
 Repository URL: https://github.com/douglax/TDDwChef.git
@@ -42,5 +46,34 @@ Poll SCM: Schedule   * * * * *
 Build environment
 Add timestamps for console output
 Create Delivary pipeline version
+
+Save
+
+
+## Create Inspec evaluation job
+
+jenkinsserver:8080/newjob
+
+Enter an item name: InspecAssessment
+Select Freestyle project, then OK
+
+Configure the job with the following information:
+
+Delivery pipeline Configuration
+Stage name:  Stage 2 - Inspec
+Task name: Inspec Test
+
+
+Shared workspace: TDDworkspace
+
+Build triggers
+
+Build after other projects are built ->  SCM_retrieval
+
+Post-build action
+
+Publish JUnit test report
+
+Test report XMLs:   *.xml
 
 Save
