@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="rspec" tests="5" failures="0" errors="0" time="2.182377" timestamp="2017-02-18T16:42:35-07:00">
+<testsuite name="rspec" tests="5" failures="0" errors="0" time="2.182377" timestamp="2017-02-22T14:32:35-07:00">
   <!-- Randomized with seed 26759 -->
   <properties/>
   <testcase classname="C:.opscode.chefdk.embedded.lib.ruby.gems.2.3.0.gems.inspec-1.7.2.lib.inspec.rule" name="System Package httpd should be installed" file="C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/inspec-1.7.2/lib/inspec/rule.rb" time="1.660656"/>
