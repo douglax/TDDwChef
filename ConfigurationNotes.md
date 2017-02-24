@@ -75,7 +75,7 @@ Post-build action
 
 Publish JUnit test report
 
-Test report XMLs:   *.xml
+Test report XMLs:   '*.xml'
 
 Save
 
