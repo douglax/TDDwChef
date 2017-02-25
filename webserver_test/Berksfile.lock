@@ -1,0 +1,7 @@
+DEPENDENCIES
+  webserver_test
+    path: .
+    metadata: true
+
+GRAPH
+  webserver_test (0.1.0)
