@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="rspec" tests="5" failures="0" errors="0" time="2.102107" timestamp="2017-02-24T15:12:11-07:00">
-  <!-- Randomized with seed 46218 -->
+<testsuite name="rspec" tests="4" failures="3" errors="0" time="0.459253" timestamp="2017-03-05T11:06:59-07:00">
+  <!-- Randomized with seed 59493 -->
   <properties/>
-  <testcase classname="C:.opscode.chefdk.embedded.lib.ruby.gems.2.3.0.gems.inspec-1.7.2.lib.inspec.rule" name="System Package httpd should be installed" file="C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/inspec-1.7.2/lib/inspec/rule.rb" time="1.480699"/>
-  <testcase classname="C:.opscode.chefdk.embedded.lib.ruby.gems.2.3.0.gems.inspec-1.7.2.lib.inspec.rule" name="Service httpd should be enabled" file="C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/inspec-1.7.2/lib/inspec/rule.rb" time="0.287281"/>
-  <testcase classname="C:.opscode.chefdk.embedded.lib.ruby.gems.2.3.0.gems.inspec-1.7.2.lib.inspec.rule" name="Service httpd should be running" file="C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/inspec-1.7.2/lib/inspec/rule.rb" time="0.000628"/>
-  <testcase classname="test.smoke.default.default_test" name="Command curl localhost stdout should match /hello/" file="test/smoke/default/default_test.rb" time="0.162625"/>
-  <testcase classname="C:.opscode.chefdk.embedded.lib.ruby.gems.2.3.0.gems.inspec-1.7.2.lib.inspec.rule" name="Port 80 should be listening" file="C:/opscode/chefdk/embedded/lib/ruby/gems/2.3.0/gems/inspec-1.7.2/lib/inspec/rule.rb" time="0.167861"/>
+  <testcase classname="opt.chefdk.embedded.lib.ruby.gems.2.3.0.gems.inspec-1.11.0.lib.inspec.rule" name="System Package httpd should be installed" file="/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/inspec-1.11.0/lib/inspec/rule.rb" time="0.369060"/>
+  <testcase classname="opt.chefdk.embedded.lib.ruby.gems.2.3.0.gems.inspec-1.11.0.lib.inspec.rule" name="Service httpd should be running" file="/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/inspec-1.11.0/lib/inspec/rule.rb" time="0.033144">
+    <failure message="expected that `Service httpd` is running" type="RSpec::Expectations::ExpectationNotMetError">
+      <![CDATA[expected that `Service httpd` is running
+test/smoke/default/default_test.rb:14:in `block (2 levels) in load_with_context']]>
+    </failure>
+  </testcase>
+  <testcase classname="test.smoke.default.default_test" name="Command curl localhost stdout should match /hello/" file="test/smoke/default/default_test.rb" time="0.035550">
+    <failure message="expected &quot;&quot; to match /hello/&#10;Diff:&#10;@@ -1,2 +1,2 @@&#10;-/hello/&#10;+&quot;&quot;&#10;" type="RSpec::Expectations::ExpectationNotMetError">
+      <![CDATA[expected "" to match /hello/
+Diff:
+@@ -1,2 +1,2 @@
+-/hello/
++""
+
+test/smoke/default/default_test.rb:18:in `block (2 levels) in load_with_context']]>
+    </failure>
+  </testcase>
+  <testcase classname="opt.chefdk.embedded.lib.ruby.gems.2.3.0.gems.inspec-1.11.0.lib.inspec.rule" name="Port 80 should be listening" file="/opt/chefdk/embedded/lib/ruby/gems/2.3.0/gems/inspec-1.11.0/lib/inspec/rule.rb" time="0.019243">
+    <failure message="expected `Port 80.listening?` to return true, got false" type="RSpec::Expectations::ExpectationNotMetError">
+      <![CDATA[expected `Port 80.listening?` to return true, got false
+test/smoke/default/default_test.rb:22:in `block (2 levels) in load_with_context']]>
+    </failure>
+  </testcase>
 </testsuite>
