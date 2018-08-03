@@ -1,6 +1,6 @@
 ---
 driver:
-  name: docker
+  name: vagrant
 
 provisioner:
   name: chef_zero
@@ -15,7 +15,7 @@ verifier:
   output: ./inspec_output.xml
 
 platforms:
-  - name: centos-7.2
+  - name: centos/7
 
 suites:
   - name: default

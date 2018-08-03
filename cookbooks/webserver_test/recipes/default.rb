@@ -8,9 +8,9 @@
 package 'httpd'
 
 # Start and enable the httpd service.
-#service 'httpd' do
-#  action  start
-#end
+service 'httpd' do
+  action  [:start, :enable]
+end
 
 # Serve a custom home page.
 file '/var/www/html/index.html' do
