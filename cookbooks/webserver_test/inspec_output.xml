@@ -1,9 +1,0 @@
-<?xml version='1.0'?>
-<testsuites>
-  <testsuite name='tests from {:path=&gt;&quot;.home.alex.hacks.TDDwChef.cookbooks.webserver_test.test.smoke.default&quot;}' tests='4' failed='0'>
-    <testcase name='System Package httpd should be installed' classname='tests from {:path=&gt;&quot;.home.alex.hacks.TDDwChef.cookbooks.webserver_test.test.smoke.default&quot;}.Anonymous' time='0.419594709'/>
-    <testcase name='Service httpd should be running' classname='tests from {:path=&gt;&quot;.home.alex.hacks.TDDwChef.cookbooks.webserver_test.test.smoke.default&quot;}.Anonymous' time='0.102853542'/>
-    <testcase name='Command curl localhost stdout should match /hello/' classname='tests from {:path=&gt;&quot;.home.alex.hacks.TDDwChef.cookbooks.webserver_test.test.smoke.default&quot;}.Anonymous' time='0.043435529'/>
-    <testcase name='Port 80 should be listening' classname='tests from {:path=&gt;&quot;.home.alex.hacks.TDDwChef.cookbooks.webserver_test.test.smoke.default&quot;}.Anonymous' time='0.10817297'/>
-  </testsuite>
-</testsuites>
